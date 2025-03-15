@@ -10,8 +10,8 @@ BOT_USERNAME = os.environ.get('BOT_USERNAME', "Autocaptiondhmgaut_Bot")
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "kannadamovieskannadadubb")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002334874259"))
 
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://hello:Preethu@cluster0.isgp5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "hello_files")
 
 STRING = os.environ.get("STRING", "")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/cca849a2f63053fa3f622.jpg")
